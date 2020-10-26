@@ -3,4 +3,4 @@ project(Oblig5)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Oblig5 main.cpp)
+add_executable(Oblig5 oblig5.cpp)
