@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Oblig5.dir/main.cpp.o  -o Oblig5 
+/usr/bin/c++  -g   CMakeFiles/Oblig5.dir/oblig5.cpp.o  -o Oblig5 

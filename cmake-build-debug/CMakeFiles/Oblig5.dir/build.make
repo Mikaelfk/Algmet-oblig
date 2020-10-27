@@ -77,27 +77,27 @@ include CMakeFiles/Oblig5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Oblig5.dir/flags.make
 
-CMakeFiles/Oblig5.dir/main.cpp.o: CMakeFiles/Oblig5.dir/flags.make
-CMakeFiles/Oblig5.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oblig/Oblig5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Oblig5.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oblig5.dir/main.cpp.o -c "/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oblig/Oblig5/main.cpp"
+CMakeFiles/Oblig5.dir/oblig5.cpp.o: CMakeFiles/Oblig5.dir/flags.make
+CMakeFiles/Oblig5.dir/oblig5.cpp.o: ../oblig5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oblig/Oblig5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Oblig5.dir/oblig5.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oblig5.dir/oblig5.cpp.o -c "/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oblig/Oblig5/oblig5.cpp"
 
-CMakeFiles/Oblig5.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oblig5.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oblig/Oblig5/main.cpp" > CMakeFiles/Oblig5.dir/main.cpp.i
+CMakeFiles/Oblig5.dir/oblig5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oblig5.dir/oblig5.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oblig/Oblig5/oblig5.cpp" > CMakeFiles/Oblig5.dir/oblig5.cpp.i
 
-CMakeFiles/Oblig5.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oblig5.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oblig/Oblig5/main.cpp" -o CMakeFiles/Oblig5.dir/main.cpp.s
+CMakeFiles/Oblig5.dir/oblig5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oblig5.dir/oblig5.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oblig/Oblig5/oblig5.cpp" -o CMakeFiles/Oblig5.dir/oblig5.cpp.s
 
 # Object files for target Oblig5
 Oblig5_OBJECTS = \
-"CMakeFiles/Oblig5.dir/main.cpp.o"
+"CMakeFiles/Oblig5.dir/oblig5.cpp.o"
 
 # External object files for target Oblig5
 Oblig5_EXTERNAL_OBJECTS =
 
-Oblig5: CMakeFiles/Oblig5.dir/main.cpp.o
+Oblig5: CMakeFiles/Oblig5.dir/oblig5.cpp.o
 Oblig5: CMakeFiles/Oblig5.dir/build.make
 Oblig5: CMakeFiles/Oblig5.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oblig/Oblig5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Oblig5"

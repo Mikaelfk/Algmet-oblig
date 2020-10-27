@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Oblig5.dir/main.cpp.o"
+  "CMakeFiles/Oblig5.dir/oblig5.cpp.o"
   "Oblig5"
   "Oblig5.pdb"
 )

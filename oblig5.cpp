@@ -20,11 +20,11 @@ void brettUt(Node* node);
 
 
 void brettUt(Node* node) {
-    if(node->besokt) {
-        node = kopier(node);
-    }
-    node->besokt = true;
     for(int i = 0; i < node->antNaboer; i++) {
+        if(node->naboer[i]->besokt) {
+            node->naboer[i] = kopier(node->naboer[i]);
+        }
+        node->naboer[i]->besokt = true;
         brettUt(node->naboer[i]);
     }
 }
@@ -37,7 +37,10 @@ Node* kopier(Node* node)  {
 }
 
 void traverseTree(Node* node) {
-    std::cout << node->ID << "\n";
+    for(int i = 0; i < node->antNaboer; i++) {
+        std::cout << node->naboer[i]->ID << ": " << node->naboer[i] << " ";
+    }
+    std::cout << "\n";
     for(int i = 0; i < node->antNaboer; i++) {
         traverseTree(node->naboer[i]);
     }

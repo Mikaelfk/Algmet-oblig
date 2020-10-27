@@ -143,32 +143,32 @@ Oblig5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblig5.dir/build.make CMakeFiles/Oblig5.dir/build
 .PHONY : Oblig5/fast
 
-main.o: main.cpp.o
+oblig5.o: oblig5.cpp.o
 
-.PHONY : main.o
+.PHONY : oblig5.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblig5.dir/build.make CMakeFiles/Oblig5.dir/main.cpp.o
-.PHONY : main.cpp.o
+oblig5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblig5.dir/build.make CMakeFiles/Oblig5.dir/oblig5.cpp.o
+.PHONY : oblig5.cpp.o
 
-main.i: main.cpp.i
+oblig5.i: oblig5.cpp.i
 
-.PHONY : main.i
+.PHONY : oblig5.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblig5.dir/build.make CMakeFiles/Oblig5.dir/main.cpp.i
-.PHONY : main.cpp.i
+oblig5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblig5.dir/build.make CMakeFiles/Oblig5.dir/oblig5.cpp.i
+.PHONY : oblig5.cpp.i
 
-main.s: main.cpp.s
+oblig5.s: oblig5.cpp.s
 
-.PHONY : main.s
+.PHONY : oblig5.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblig5.dir/build.make CMakeFiles/Oblig5.dir/main.cpp.s
-.PHONY : main.cpp.s
+oblig5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblig5.dir/build.make CMakeFiles/Oblig5.dir/oblig5.cpp.s
+.PHONY : oblig5.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Oblig5"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... oblig5.o"
+	@echo "... oblig5.i"
+	@echo "... oblig5.s"
 .PHONY : help
 
 

@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oblig/Oblig5/main.cpp">
+		<Unit filename="/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oblig/Oblig5/oblig5.cpp">
 			<Option target="Oblig5"/>
 		</Unit>
 		<Unit filename="/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oblig/Oblig5/CMakeLists.txt">
