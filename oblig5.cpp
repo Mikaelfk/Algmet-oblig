@@ -20,11 +20,18 @@ void brettUt(Node* node);
 
 
 void brettUt(Node* node) {
+    /* For loop som går igjennom hver nabo til noden.
+     * Jeg kunne lagt til en if setning som sjekket om noden finnes, men siden for loopen bare
+     * kjøres når det finnes naboer trengs ikke det så lenge antNaboer er riktig.
+     */
     for(int i = 0; i < node->antNaboer; i++) {
+        //Sjekker om naboen er besøkt, Hvis naboen er besøkt vil den bli erstattet med en kopi.
         if(node->naboer[i]->besokt) {
             node->naboer[i] = kopier(node->naboer[i]);
         }
+        //Deretter sier vi at naboen er besøkt.
         node->naboer[i]->besokt = true;
+        //Går gjennom hele treet rekursivt.
         brettUt(node->naboer[i]);
     }
 }
@@ -37,6 +44,7 @@ Node* kopier(Node* node)  {
 }
 
 void traverseTree(Node* node) {
+    std::cout << "Barn til " << node->ID << ": ";
     for(int i = 0; i < node->antNaboer; i++) {
         std::cout << node->naboer[i]->ID << ": " << node->naboer[i] << " ";
     }
